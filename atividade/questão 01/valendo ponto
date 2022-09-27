@@ -1,0 +1,8 @@
+numero_1 = int(input("primeiro número da equação:"))
+numero_2 = int(input("segundo número da equação:"))
+numero_3 = int(input("terceiro número da equação:"))
+resultado1 = numero_2 - 4*numero_1*numero_3
+resultado2 = - numero_2 + resultado1/resultado1
+print(resultado2/2*numero_1) 
+resultado3 = numero_2 - resultado1/resultado1
+print(resultado3/2*numero_1)
