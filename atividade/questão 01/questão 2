@@ -1,0 +1,8 @@
+import math
+
+numero_x1 = int (input ("x1:"))
+numero_x2 = int (input ("x2:"))
+numero_y1 = int (input ("y1:"))
+numero_y2 = int (input ("y2:"))
+resultado = math.sqrt((numero_x2-numero_x1)**2 + (numero_y2-numero_y1)**2)
+print(resultado)
