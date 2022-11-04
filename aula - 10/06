@@ -1,0 +1,17 @@
+from random import randint
+
+vetor = []
+
+for i in range(20):
+    i = randint(0, 100)
+    vetor.append(i)
+
+
+x = float(input("Digite um número para ver se tem no vetor: "))
+print(vetor)
+
+if x in vetor:
+  vetor.remove(x)
+  print(f"Vetor: {vetor}")
+else:
+  print("Número não encontrado")
