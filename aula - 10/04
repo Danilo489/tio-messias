@@ -1,0 +1,15 @@
+from random import randint
+
+A = []
+M = []
+
+
+for i in range(10):
+    i = A.append(randint(0, 100))
+
+x = randint(0, 9)
+
+for i in range(len(A)):
+    M.append(x * A[i])
+
+print(f"M: {M}")
